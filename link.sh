@@ -4,6 +4,7 @@ FILES=(
   vimrc vim 
   tmux tmux.conf
   gitignore gitconfig gitconfig.local
+  oh-my-zsh zshrc
 )
 
 for f in ${FILES[@]}

@@ -19,7 +19,7 @@
         excludesfile = ~/.gitignore
         editor = vim
 	attributesfile = /Users/brucecollie/.gitattributes
-	autocrlf = true
+	autocrlf = input
 [apply]
         whitespace = nowarn
 [mergetool]

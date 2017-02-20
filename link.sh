@@ -3,6 +3,7 @@
 FILES=(
   vimrc vim 
   tmux tmux.conf
+  gitignore gitconfig gitconfig.local
 )
 
 for f in ${FILES[@]}

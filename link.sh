@@ -9,5 +9,5 @@ do
   echo "Removing old file..."
   rm $DOTFILE
   echo "Linking $f..."
-  ln -s $f $DOTFILE
+  ln -s $PWD/$f $DOTFILE
 done

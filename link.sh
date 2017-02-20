@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-FILES=(vimrc tmux.conf)
+FILES=(vimrc vim tmux.conf)
 
 for f in ${FILES[@]}
 do
   DOTFILE="$HOME/.$f"
 
   echo "Removing old file..."
-  rm $DOTFILE
+  rm -rf $DOTFILE
   echo "Linking $f..."
   ln -s $PWD/$f $DOTFILE
 done

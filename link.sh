@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-FILES=(vimrc vim tmux.conf)
+FILES=(
+  vimrc vim 
+  tmux tmux.conf
+)
 
 for f in ${FILES[@]}
 do

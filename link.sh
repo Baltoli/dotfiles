@@ -3,7 +3,7 @@
 FILES=(
   vimrc vim 
   tmux tmux.conf
-  gitignore gitconfig gitconfig.local
+  gitignore gitconfig.local
   oh-my-zsh zshrc
 )
 

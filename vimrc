@@ -90,3 +90,5 @@ colorscheme nocturne
 set updatetime=250
 
 au CompleteDone * pclose
+
+let g:gitgutter_sign_column_always = 1

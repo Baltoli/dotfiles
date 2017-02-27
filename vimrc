@@ -85,7 +85,7 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 set background=dark
 set termguicolors " if you want to run vim in a terminal
-colorscheme nocturne
+colorscheme gruvbox
 
 set updatetime=250
 

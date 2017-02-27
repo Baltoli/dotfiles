@@ -24,15 +24,6 @@ fi
 autoload -U compinit
 compinit
 
-# load every completion after autocomplete loads
-for config_file ($DOTFILES/**/completion.zsh)
-do
-  if test -f $config_file
-  then
-    source $config_file
-  fi
-done
-
 DEFAULT_USER=brucecollie
 
 # OPAM configuration

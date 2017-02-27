@@ -83,10 +83,6 @@ let g:ctrlp_extensions = ['line']
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
-set background=dark
-set termguicolors " if you want to run vim in a terminal
-colorscheme gruvbox
-
 set updatetime=250
 
 au CompleteDone * pclose

@@ -26,5 +26,8 @@ compinit
 
 DEFAULT_USER=brucecollie
 
+export http_proxy=http://behistun.sec.cl.cam.ac.uk:8080
+export HTTP_PROXY=http://behistun.sec.cl.cam.ac.uk:8080
+
 # OPAM configuration
 . /Users/brucecollie/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

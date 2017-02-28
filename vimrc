@@ -92,3 +92,6 @@ set updatetime=250
 au CompleteDone * pclose
 
 let g:gitgutter_sign_column_always = 1
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>

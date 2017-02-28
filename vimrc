@@ -55,7 +55,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 map <Leader>c :wq<CR>:Git push<CR>
 
 set cursorline
-hi CursorLine cterm=NONE ctermbg=242 guifg=#000000
+hi CursorLine cterm=NONE ctermbg=236 guifg=#000000
 
 let g:vimroom_sidebar_height=0
 

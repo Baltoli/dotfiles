@@ -94,3 +94,6 @@ au CompleteDone * pclose
 let g:gitgutter_sign_column_always = 1
 highlight SignColumn guibg=#292929
 highlight StatusLine guifg=#292929 guibg=#666666
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>

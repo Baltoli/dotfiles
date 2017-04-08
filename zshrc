@@ -31,3 +31,10 @@ export HTTP_PROXY=http://behistun.sec.cl.cam.ac.uk:8080
 
 # OPAM configuration
 . /Users/brucecollie/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+function paste() {
+  $@ 2>&1 | curl -F 'f:1=<-' ix.io
+}
+
+export GIT_KEY="6874810a2e442e168991595066e391a57a196922"
+export LC_CTYPE=en_US.UTF-8

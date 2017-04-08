@@ -19,7 +19,7 @@ map <C-d> :BD<CR>
 
 map <C-c> :r!cite<CR>
 
-map <C-e> :w<CR>:!latexmk -pdf -shell-escape %<CR>
+map <C-e> :w<CR>:!latexmk -pdf -shell-escape<CR>
 
 set expandtab
 set shiftwidth=2

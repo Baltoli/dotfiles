@@ -28,3 +28,5 @@ DEFAULT_USER=brucecollie
 
 # OPAM configuration
 . /Users/brucecollie/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+alias timer="python /Users/brucecollie/Documents/Development/timer/timer/app.py"

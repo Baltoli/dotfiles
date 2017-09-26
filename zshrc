@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.cabal/bin:$PATH
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$DOTFILES/bin:/usr/local/bin:$PATH
+export PATH=$HOME/Documents/development/miniconda3/bin:$PATH
 
 source $HOME/.profile
 
@@ -29,4 +30,4 @@ DEFAULT_USER=brucecollie
 # OPAM configuration
 . /Users/brucecollie/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
-alias timer="python /Users/brucecollie/Documents/Development/timer/timer/app.py"
+unsetopt AUTO_CD

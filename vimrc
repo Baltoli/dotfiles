@@ -19,7 +19,7 @@ map <C-d> :BD<CR>
 
 map <C-c> :r!cite<CR>
 
-map <C-e> :w<CR>:!latexmk -pdf -shell-escape<CR>
+map <C-e> :w<CR>:silent !latexmk -pdf -shell-escape -output-directory=$(dirname %) %<CR>:redraw!<CR>
 
 set expandtab
 set shiftwidth=2
@@ -109,3 +109,6 @@ nmap <Leader>7 <Plug>BufTabLine.Go(7)
 nmap <Leader>8 <Plug>BufTabLine.Go(8)
 nmap <Leader>9 <Plug>BufTabLine.Go(9)
 nmap <Leader>0 <Plug>BufTabLine.Go(10)
+
+map \gq ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>gq//-1<CR>
+omap lp ?^$\\|^\s*\(\\begin\\|\\end\\|\\label\)?1<CR>//-1<CR>.<CR>

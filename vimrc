@@ -28,7 +28,7 @@ set softtabstop=2
 set tw=80
 
 set mouse=a
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 autocmd StdinReadPre * let s:std_in=1
 
@@ -54,7 +54,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 map <Leader>c :wq<CR>:Git push<CR>
 
-set cursorline
+" set cursorline
 hi CursorLine cterm=NONE ctermbg=242 guifg=#000000
 
 let g:vimroom_sidebar_height=0
@@ -85,15 +85,15 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 set background=dark
 set termguicolors " if you want to run vim in a terminal
-colorscheme gruvbox
+" colorscheme gruvbox
 
 set updatetime=250
 
 au CompleteDone * pclose
 
 let g:gitgutter_sign_column_always = 1
-highlight SignColumn guibg=#292929
-highlight StatusLine guifg=#292929 guibg=#666666
+" highlight SignColumn guibg=#292929
+" highlight StatusLine guifg=#292929 guibg=#666666
 
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>

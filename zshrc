@@ -8,7 +8,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.cabal/bin:$PATH
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$DOTFILES/bin:/usr/local/bin:$PATH
-export PATH=$HOME/Documents/development/miniconda3/bin:$PATH
+export PATH=$HOME/miniconda3/bin:$PATH
 
 source $HOME/.profile
 

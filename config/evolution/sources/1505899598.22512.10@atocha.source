@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=brucecollie82@gmail.com
+Enabled=true
+Parent=1505899598.22512.12@atocha
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.googlemail.com
+Method=Google
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=brucecollie82@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

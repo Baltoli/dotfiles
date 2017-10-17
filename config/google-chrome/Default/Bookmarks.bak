@@ -1,0 +1,346 @@
+{
+   "checksum": "46275ec73a439b4b253dcc6949345b7d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13123424029806357",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13150981021370854"
+            },
+            "name": "",
+            "sync_transaction_version": "77",
+            "type": "url",
+            "url": "http://news.ycombinator.com/"
+         }, {
+            "date_added": "13123424012997789",
+            "id": "9",
+            "name": "",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.github.com/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13123515773746825",
+                     "id": "62",
+                     "name": "Blueprint",
+                     "sync_transaction_version": "1",
+                     "type": "url",
+                     "url": "http://blueprintjs.com/"
+                  } ],
+                  "date_added": "13150369877428423",
+                  "date_modified": "13150369877428423",
+                  "id": "61",
+                  "name": "Libraries",
+                  "sync_transaction_version": "1",
+                  "type": "folder"
+               } ],
+               "date_added": "13150369877427517",
+               "date_modified": "13150369877427517",
+               "id": "31",
+               "name": "React",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13123679487932066",
+                  "id": "57",
+                  "name": "LLVM Examples",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/eliben/llvm-clang-samples"
+               }, {
+                  "date_added": "13123792360622684",
+                  "id": "58",
+                  "name": "Travis cTest",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://ctest-ext.readthedocs.io/en/latest/ci/travis/"
+               }, {
+                  "date_added": "13123792368911384",
+                  "id": "59",
+                  "name": "cTest",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://cmake.org/Wiki/CMake/Testing_With_CTest"
+               }, {
+                  "date_added": "13124214769509348",
+                  "id": "60",
+                  "name": "LLVM Tutorial 2: A More Complicated Function",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://llvm.org/releases/2.6/docs/tutorial/JITTutorial2.html"
+               } ],
+               "date_added": "13150369877427521",
+               "date_modified": "13150369877427521",
+               "id": "32",
+               "name": "Language",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124025189588862",
+                  "id": "56",
+                  "name": "MarkSheet",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://marksheet.io/"
+               } ],
+               "date_added": "13150369877427524",
+               "date_modified": "13150369877427524",
+               "id": "33",
+               "name": "Tutorials",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13124733268864741",
+                  "id": "54",
+                  "name": "Source rewrite",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://eli.thegreenplace.net/2014/05/01/modern-source-to-source-transformation-with-clang-and-libtooling"
+               }, {
+                  "date_added": "13124818408620211",
+                  "id": "55",
+                  "name": "Actions & Visitors",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://clang.llvm.org/docs/RAVFrontendAction.html"
+               } ],
+               "date_added": "13150369877427527",
+               "date_modified": "13150369877427527",
+               "id": "34",
+               "name": "Skeletons",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13133704875493948",
+                  "id": "50",
+                  "name": "Tun/Tap tutorial",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://backreference.org/2010/03/26/tuntap-interface-tutorial/"
+               }, {
+                  "date_added": "13133708336228581",
+                  "id": "51",
+                  "name": "ad001: A minimal example for use of tun/tap devices on FreeBSD",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://ad001.de/freebsd-tuntap-devices-example.html"
+               }, {
+                  "date_added": "13133745971120015",
+                  "id": "52",
+                  "name": "Let's code a TCP/IP stack, 1: Ethernet & ARP",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/"
+               }, {
+                  "date_added": "13134062227052326",
+                  "id": "53",
+                  "name": "lwIP Raw TCP",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://lwip.wikia.com/wiki/Raw/TCP"
+               } ],
+               "date_added": "13150369877427531",
+               "date_modified": "13150369877427531",
+               "id": "35",
+               "name": "TCP",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13147804935805217",
+                  "id": "47",
+                  "name": "llvm-prov/llvm-prov-make at master · cadets/llvm-prov",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/cadets/llvm-prov/blob/master/scripts/llvm-prov-make"
+               }, {
+                  "date_added": "13147804940776104",
+                  "id": "48",
+                  "name": "Teach kernel build system about instrumentation. · cadets/freebsd@4dea99e",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/cadets/freebsd/commit/4dea99e7da1971fd61de425a1a367518f0941685"
+               }, {
+                  "date_added": "13147804943081664",
+                  "id": "49",
+                  "name": "cadets/freebsd: FreeBSD src tree http://www.FreeBSD.org/",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://github.com/cadets/freebsd"
+               } ],
+               "date_added": "13150369877427896",
+               "date_modified": "13150369877427896",
+               "id": "46",
+               "name": "TESLA",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13127507441624704",
+                  "id": "36",
+                  "name": "Clang Attributes",
+                  "sync_transaction_version": "20",
+                  "type": "url",
+                  "url": "http://stackoverflow.com/questions/20180917/how-to-access-parsed-c11-attributes-via-clang-tooling"
+               }, {
+                  "date_added": "13128430397904506",
+                  "id": "37",
+                  "name": "LLDB",
+                  "sync_transaction_version": "21",
+                  "type": "url",
+                  "url": "https://www.objc.io/issues/19-debugging/lldb-debugging/"
+               }, {
+                  "date_added": "13128430514528967",
+                  "id": "38",
+                  "name": "Chisel",
+                  "sync_transaction_version": "22",
+                  "type": "url",
+                  "url": "https://github.com/facebook/chisel"
+               }, {
+                  "date_added": "13128445760462847",
+                  "id": "39",
+                  "name": "Matplotlib Tutorial",
+                  "sync_transaction_version": "23",
+                  "type": "url",
+                  "url": "https://www.labri.fr/perso/nrougier/teaching/matplotlib/"
+               }, {
+                  "date_added": "13131731466635869",
+                  "id": "40",
+                  "name": "iOS Provisioning",
+                  "sync_transaction_version": "24",
+                  "type": "url",
+                  "url": "http://www.theodo.fr/blog/2017/02/a-beginners-guide-to-ios-provisioning-profiles/"
+               }, {
+                  "date_added": "13132855546211701",
+                  "id": "41",
+                  "name": "LLVM Coding Standards",
+                  "sync_transaction_version": "25",
+                  "type": "url",
+                  "url": "http://llvm.org/docs/CodingStandards.html"
+               }, {
+                  "date_added": "13136483633178457",
+                  "id": "42",
+                  "name": "C++ Makefile, Pretty Output · Lunderberg",
+                  "sync_transaction_version": "26",
+                  "type": "url",
+                  "url": "http://www.lunderberg.com/2015/08/25/cpp-makefile-pretty-output/"
+               }, {
+                  "date_added": "13139144911046247",
+                  "id": "43",
+                  "name": "The Ultimate Guide to Modern CMake",
+                  "sync_transaction_version": "27",
+                  "type": "url",
+                  "url": "https://rix0r.nl/blog/2015/08/13/cmake-guide/"
+               }, {
+                  "date_added": "13139752617426214",
+                  "id": "44",
+                  "name": "rapidcheck",
+                  "sync_transaction_version": "28",
+                  "type": "url",
+                  "url": "https://github.com/emil-e/rapidcheck"
+               }, {
+                  "date_added": "13140008455502011",
+                  "id": "45",
+                  "name": "Globbing",
+                  "sync_transaction_version": "29",
+                  "type": "url",
+                  "url": "http://www.refining-linux.org/archives/37/ZSH-Gem-2-Extended-globbing-and-expansion/"
+               } ],
+               "date_added": "13150370028682895",
+               "date_modified": "13150370034665688",
+               "id": "68",
+               "name": "Other",
+               "sync_transaction_version": "19",
+               "type": "folder"
+            } ],
+            "date_added": "13150369877425604",
+            "date_modified": "13150370028683033",
+            "id": "13",
+            "name": "Programming",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13129144576504787",
+               "id": "25",
+               "name": "A Survival Guide to a PhD",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://karpathy.github.io/2016/09/07/phd/"
+            }, {
+               "children": [ {
+                  "date_added": "13138023170777869",
+                  "id": "29",
+                  "name": "The Elements of Style",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.jlakes.org/ch/web/The-elements-of-style.pdf"
+               }, {
+                  "date_added": "13138023330893166",
+                  "id": "30",
+                  "name": "Knuth Mathematical Writing",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://tex.loria.fr/typographie/mathwriting.pdf"
+               } ],
+               "date_added": "13150369877427362",
+               "date_modified": "13150369877427362",
+               "id": "26",
+               "name": "Writing",
+               "sync_transaction_version": "1",
+               "type": "folder"
+            }, {
+               "date_added": "13143588791310844",
+               "id": "27",
+               "name": "Write good papers – Daniel Lemire's blog",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://lemire.me/blog/rules-to-write-a-good-research-paper/"
+            }, {
+               "date_added": "13143588894227985",
+               "id": "28",
+               "name": "How to Write Research Papers",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.findaphd.com/advice/doing/writing-research-papers.aspx"
+            } ],
+            "date_added": "13150369877425742",
+            "date_modified": "13150369877425742",
+            "id": "14",
+            "name": "PhD",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         } ],
+         "date_added": "13150369775513832",
+         "date_modified": "13149095386195927",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13150369775513836",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "77",
+      "synced": {
+         "children": [  ],
+         "date_added": "13150369775513836",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

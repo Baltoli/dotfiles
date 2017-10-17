@@ -1,0 +1,8 @@
+[General]
+ShellOpenFileInTabs=true
+
+[Main View]
+ShowLeftPanel=false
+
+[Search]
+SearchCaseSensitive=true

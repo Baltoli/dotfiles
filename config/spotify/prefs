@@ -1,0 +1,9 @@
+app.autostart-configured=true
+storage.last-location="/home/bruce/.cache/spotify/Storage"
+app.autostart-mode=""
+autologin.username="100001034704077"
+autologin.saved_credentials="{\"1114967534\":[\"100001034704077\",\"klnlLqQ2socCTONPdZNYDhHS1K9X/vAju+j9E6KnWdcYDLrmVqS7HvWXUXWJitYL2lmzYlICsid6H6T4Q6s2Q9r83akBloOURLHPmDPp7Ic0gYeisbvcGC0SmEspnEgwRKEI2YtAQZODHtEwJ4SKjljL3ry3g0DuUitLLrEOUfmrWFt4ptaZ0hu4xE+vleHK\"]}"
+core.csrf_tokens="*.spotify.com|61afd433f5ab311d7dabccf178a3fe3d|2414330268"
+core.clock_delta=0
+autologin.canonical_username="1114967534"
+autologin.blob="klnlLqQ2socCTONPdZNYDhHS1K9X/vAju+j9E6KnWdcYDLrmVqS7HvWXUXWJitYL2lmzYlICsid6H6T4Q6s2Q9r83akBloOURLHPmDPp7Ic0gYeisbvcGC0SmEspnEgwRKEI2YtAQZODHtEwJ4SKjljL3ry3g0DuUitLLrEOUfmrWFt4ptaZ0hu4xE+vleHK"

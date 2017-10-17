@@ -1,0 +1,81 @@
+/* The Pop-Over */
+.pop-over-list li>a.active {
+  background-color: #eee;
+}
+
+.pop-over-list li>a.active:hover {
+  background-color: #298fca;
+}
+
+/* The Button */
+.trelabels-btn.active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.trelabels-btn.active:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* The Lines Style */
+.trelabels-line .list-card-labels {
+  margin: 0;
+}
+
+.trelabels-line .list-card-labels .card-label {
+  float: none;
+  display: block;
+  height: inherit;
+  line-height: 1;
+  width: inherit;
+  max-width: 100%;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: 0 0 3px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: left;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* The Stickers Style */
+.trelabels-sticker .list-card-labels .card-label {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  min-height: 8px;
+  min-width: 8px;
+  max-height: 8px;
+  max-width: 8px;
+}
+
+/* The Tabs Style */
+.trelabels-tab .list-card-labels {
+  margin: 0;
+  top: -6px;
+}
+
+.trelabels-tab .list-card-labels .card-label {
+  border-radius: 0 0 5px 5px;
+  height: 5px;
+  width: 20px;
+  min-width: 20px;
+}
+
+/* The Tags Style */
+.trelabels-tag .list-card-labels {
+  margin: 0;
+}
+
+.trelabels-tag .list-card-labels .card-label {
+  height: inherit;
+  line-height: 1;
+  width: inherit;
+  min-width: inherit;
+  max-width: 230px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: 0 2px 3px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}

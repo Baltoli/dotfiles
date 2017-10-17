@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=wine "/home/bruce/.wine/drive_c/Program Files (x86)/1Password 4/1Password.exe"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=1Password
+Name=1Password
+Comment[en_GB]=Run 1Password
+Comment=Run 1Password

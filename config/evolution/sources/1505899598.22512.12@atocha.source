@@ -1,0 +1,20 @@
+[Data Source]
+DisplayName=brucecollie82@gmail.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=Google
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=brucecollie82@gmail.com
+CredentialName=
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=brucecollie82@gmail.com
+MailEnabled=true

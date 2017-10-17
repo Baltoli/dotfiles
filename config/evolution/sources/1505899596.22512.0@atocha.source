@@ -1,0 +1,24 @@
+[Data Source]
+DisplayName=brucecollie82@gmail.com
+Enabled=true
+Parent=1505899598.22512.12@atocha
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://1505899596.22512.2%40atocha/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+
+[Mail Identity]
+Address=brucecollie82@gmail.com
+Name=Bruce Collie
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=1505899598.22512.10@atocha
+RepliesToOriginFolder=false

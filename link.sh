@@ -6,7 +6,7 @@ FILES=(
   gitignore gitconfig.local
   oh-my-zsh zshrc
   latexmkrc
-  config
+  config/nvim
 )
 
 for f in ${FILES[@]}

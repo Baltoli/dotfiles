@@ -5,6 +5,7 @@ FILES=(
   tmux tmux.conf
   gitignore gitconfig.local
   oh-my-zsh zshrc
+  latexmkrc
 )
 
 for f in ${FILES[@]}

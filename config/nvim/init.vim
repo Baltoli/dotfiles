@@ -12,6 +12,8 @@ if has('nvim')
   Plug 'godlygeek/tabular'
   Plug 'plasticboy/vim-markdown'
   Plug 'derekwyatt/vim-scala'
+  Plug 'lervag/vimtex'
+  Plug 'tpope/vim-surround'
 
   call plug#end()
 endif

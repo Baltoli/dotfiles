@@ -71,7 +71,7 @@ command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 let g:ctrlp_open_multiple_files = 'i'
 let g:ctrlp_extensions = ['line']
  
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
  
 " "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
@@ -100,3 +100,5 @@ let g:ycm_filetype_blacklist = {
   \ 'markdown' : 1,
   \ 'tex' : 1
   \}
+
+let g:tex_flavor = "latex"

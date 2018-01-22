@@ -31,3 +31,40 @@ DEFAULT_USER=brucecollie
 . /Users/brucecollie/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 unsetopt AUTO_CD
+eval "$(rbenv init -)"
+
+alias vim=nvim
+export EDITOR="nvim"
+
+open() {
+  (xdg-open "$@" &) &> /dev/null
+}
+
+aga() {
+  words=()
+  word="$1"
+
+  while [[ "$word" != "--" ]] && [[ "$#" -ne 0 ]]; do
+    words+=$word
+    shift
+    word="$1"
+  done
+
+  if [[ "$word" = "--" ]]; then
+    shift
+  fi
+
+  all=""
+  for w in $words; do
+    all="$w|$all"
+  done
+  all=${all[1,-2]}
+
+  cmd=""
+  for w in $words; do
+    cmd="xargs -r -- ag $w $@ -l --no-color | $cmd"
+  done
+  cmd="${cmd[13,-1]}xargs -r -- ag '$all' $@"
+
+  eval $cmd
+}

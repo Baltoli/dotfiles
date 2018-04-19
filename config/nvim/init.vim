@@ -14,6 +14,7 @@ if has('nvim')
   Plug 'derekwyatt/vim-scala'
   Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
+  Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
   call plug#end()
 endif
@@ -102,3 +103,8 @@ let g:ycm_filetype_blacklist = {
   \}
 
 let g:tex_flavor = "latex"
+let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
+
+augroup filetype
+    au! BufRead,BufNewFile *.ll     set filetype=llvm
+  augroup END

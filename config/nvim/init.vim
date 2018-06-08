@@ -8,12 +8,21 @@ if has('nvim')
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
   Plug 'morhetz/gruvbox'
-  Plug 'Valloric/YouCompleteMe'
   Plug 'godlygeek/tabular'
   Plug 'plasticboy/vim-markdown'
   Plug 'derekwyatt/vim-scala'
   Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
+
+  Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  " Plug 'Shougo/neosnippet'
+  " Plug 'Shougo/neosnippet-snippets'
+  " Plug 'Valloric/YouCompleteMe'
+  " Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
   call plug#end()
 endif
@@ -71,7 +80,7 @@ command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 let g:ctrlp_open_multiple_files = 'i'
 let g:ctrlp_extensions = ['line']
  
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
  
 " "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
@@ -100,3 +109,24 @@ let g:ycm_filetype_blacklist = {
   \ 'markdown' : 1,
   \ 'tex' : 1
   \}
+
+let g:tex_flavor = "latex"
+let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
+
+augroup filetype
+    au! BufRead,BufNewFile *.ll     set filetype=llvm
+  augroup END
+
+let g:LanguageClient_serverCommands = {
+\ 'cpp': ['cquery', '--log-file=/tmp/cq.log']                                                                                                                                                                              
+\ }
+let g:LanguageClient_loadSettings = 1
+let g:LanguageClient_settingsPath = '/home/bruce/.config/nvim/settings.json'
+let g:deoplete#enable_at_startup = 1
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>

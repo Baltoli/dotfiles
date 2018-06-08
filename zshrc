@@ -68,3 +68,4 @@ aga() {
 
   eval $cmd
 }
+export PATH="/usr/local/sbin:$PATH"

@@ -14,10 +14,10 @@ if has('nvim')
   Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
 
-  Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
+  " Plug 'autozimu/LanguageClient-neovim', {
+  "   \ 'branch': 'next',
+  "   \ 'do': 'bash install.sh',
+  "   \ }
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   " Plug 'Shougo/neosnippet'
   " Plug 'Shougo/neosnippet-snippets'
@@ -48,7 +48,7 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
  
-set tw=80
+set textwidth=80
  
 set mouse=a
 set clipboard=unnamedplus
@@ -99,9 +99,6 @@ nmap <Leader>0 <Plug>BufTabLine.Go(10)
 
 nmap <C-c> :pclose<CR>
 
-let g:ycm_global_ycm_extra_conf = '~/.config/nvim/.ycm_extra_conf.py'
-let g:ycm_autoclose_preview_window_after_insertion = 1
-
 let g:vim_markdown_new_list_item_indent = 2
 let g:vim_markdown_folding_disabled = 1
 
@@ -117,16 +114,27 @@ augroup filetype
     au! BufRead,BufNewFile *.ll     set filetype=llvm
   augroup END
 
-let g:LanguageClient_serverCommands = {
-\ 'cpp': ['cquery', '--log-file=/tmp/cq.log']                                                                                                                                                                              
-\ }
-let g:LanguageClient_loadSettings = 1
-let g:LanguageClient_settingsPath = '/home/bruce/.config/nvim/settings.json'
+" let g:LanguageClient_serverCommands = {
+" \ 'cpp': ['cquery', '--log-file=/tmp/cq.log']                                                                                                                                                                              
+" \ }
+" let g:LanguageClient_loadSettings = 1
+" let g:LanguageClient_settingsPath = '/home/bruce/.config/nvim/settings.json'
 let g:deoplete#enable_at_startup = 1
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+" nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+" nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+" nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+
+function! SearchMultiLine(bang, ...)
+  if a:0 > 0
+    let sep = (a:bang) ? '\_W\+' : '\_s\+'
+    let @/ = join(a:000, sep)
+  endif
+endfunction
+command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|normal! /<C-R>/<CR>
+
+set backupdir=~/.vim/tmp,.
+set directory=~/.vim/tmp,.

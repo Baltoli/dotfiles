@@ -9,6 +9,9 @@ export PATH=$HOME/.cabal/bin:$PATH
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$DOTFILES/bin:/usr/local/bin:$PATH
 
+PYTHON_USER_BIN=$(python -c 'import site; print(site.USER_BASE + "/bin")')
+export PATH=$PYTHON_USER_BIN:$PATH
+
 source $HOME/.profile
 
 unsetopt ignoreeof

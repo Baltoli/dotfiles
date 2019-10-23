@@ -1,3 +1,6 @@
+brew update
+brew upgrade
+
 brew cask install \
 	iterm2 \
 	google-chrome \
@@ -18,7 +21,8 @@ brew install \
 	gcc \
         cmake \
         ninja \
-        openblas
+        openblas \
+        ghc
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

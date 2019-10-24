@@ -13,7 +13,8 @@ brew cask install \
 	flux \
 	zotero \
         skim \
-        mactex
+        mactex \
+        daisydisk
 
 brew install \
 	git \

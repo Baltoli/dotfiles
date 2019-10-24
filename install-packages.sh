@@ -25,7 +25,8 @@ brew install \
         ghc \
         pypy3 \
         pypy \
-        conan
+        conan \
+        clang-format
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

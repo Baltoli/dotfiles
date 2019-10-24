@@ -26,7 +26,8 @@ brew install \
         pypy3 \
         pypy \
         conan \
-        clang-format
+        clang-format \
+        the_silver_searcher
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

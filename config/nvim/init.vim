@@ -99,6 +99,7 @@ let g:ycm_filetype_blacklist = {
 
 let g:tex_flavor = "latex"
 let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
+let g:vimtex_quickfix_open_on_warning = 0
 
 augroup filetype
     au! BufRead,BufNewFile *.ll     set filetype=llvm

@@ -14,7 +14,8 @@ brew cask install \
 	zotero \
         skim \
         mactex \
-        daisydisk
+        daisydisk \
+        tunnelblick
 
 brew install \
 	git \

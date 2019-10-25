@@ -31,7 +31,8 @@ brew install \
         clang-format \
         the_silver_searcher \
         ccache \
-        coreutils
+        coreutils \
+        bash
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

@@ -15,7 +15,9 @@ brew cask install \
         skim \
         mactex \
         daisydisk \
-        tunnelblick
+        tunnelblick \
+        spotify-notifications \
+        spotify-now-playing
 
 brew install \
 	git \

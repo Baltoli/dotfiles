@@ -16,7 +16,8 @@ brew cask install \
         skim \
         mactex \
         daisydisk \
-        tunnelblick
+        tunnelblick \
+        private-internet-access
 
 brew install \
 	git \

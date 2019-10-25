@@ -30,7 +30,8 @@ brew install \
         conan \
         clang-format \
         the_silver_searcher \
-        ccache
+        ccache \
+        coreutils
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

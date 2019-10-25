@@ -34,7 +34,8 @@ brew install \
         ccache \
         coreutils \
         bash \
-        graphviz
+        graphviz \
+        cloc
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

@@ -33,7 +33,8 @@ brew install \
         the_silver_searcher \
         ccache \
         coreutils \
-        bash
+        bash \
+        graphviz
 
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user Pygments

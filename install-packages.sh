@@ -7,6 +7,7 @@ brew cask install \
 	backblaze \
 	bettertouchtool \
 	spotify \
+        spotify-notifications \
 	whatsapp \
 	dropbox \
 	caffeine \
@@ -15,9 +16,7 @@ brew cask install \
         skim \
         mactex \
         daisydisk \
-        tunnelblick \
-        spotify-notifications \
-        spotify-now-playing
+        tunnelblick
 
 brew install \
 	git \

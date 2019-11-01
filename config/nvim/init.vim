@@ -13,6 +13,8 @@ if has('nvim')
   Plug 'derekwyatt/vim-scala'
   Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
+  Plug 'kana/vim-operator-user'
+  Plug 'rhysd/vim-clang-format'
 
   call plug#end()
 endif
@@ -107,3 +109,6 @@ augroup filetype
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+let g:clang_format#detect_style_file = 1
+let g:clang_format#auto_format = 1

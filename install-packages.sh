@@ -17,7 +17,8 @@ brew cask install \
         mactex \
         daisydisk \
         tunnelblick \
-        private-internet-access
+        private-internet-access \
+        gitkraken
 
 brew install \
 	git \

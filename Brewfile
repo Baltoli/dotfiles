@@ -16,6 +16,7 @@ cask "tunnelblick"
 cask "private-internet-access"
 cask "gitkraken"
 cask "gimp"
+cask "inkscape"
 
 brew "git"
 brew "nvim"

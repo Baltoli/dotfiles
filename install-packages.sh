@@ -18,7 +18,8 @@ brew cask install \
         daisydisk \
         tunnelblick \
         private-internet-access \
-        gitkraken
+        gitkraken \
+        gimp
 
 brew install \
 	git \

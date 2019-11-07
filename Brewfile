@@ -17,6 +17,7 @@ cask "private-internet-access"
 cask "gitkraken"
 cask "gimp"
 cask "inkscape"
+cask "steam"
 
 brew "git"
 brew "nvim"

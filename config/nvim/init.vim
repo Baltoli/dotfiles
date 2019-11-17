@@ -49,6 +49,8 @@ map <C-b> :CtrlPBuffer<CR>
  
 autocmd BufEnter * :syntax sync fromstart
 set hidden
+
+au FileType * set tw=80
 au FileType gitcommit set tw=72
  
 " The Silver Searcher

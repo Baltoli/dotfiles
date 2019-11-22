@@ -71,3 +71,5 @@ aga() {
 
 export DICE="/afs/inf.ed.ac.uk/user/s13/s1306752"
 export CUPS_USER='s1306752'
+
+. /home/bruce/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

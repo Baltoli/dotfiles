@@ -13,6 +13,10 @@ if has('nvim')
   Plug 'derekwyatt/vim-scala'
   Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
+  Plug 'rhysd/vim-clang-format'
+  Plug 'junegunn/goyo.vim'
+  Plug 'junegunn/limelight.vim'
+  Plug 'wlangstroth/vim-racket'
 
   " Plug 'autozimu/LanguageClient-neovim', {
   "   \ 'branch': 'next',
@@ -41,8 +45,6 @@ set number
 map <C-o> :bn<CR>
 map <C-i> :bp<CR>
 map <C-d> :BD<CR>
- 
-map <C-e> :w<CR>:silent !latexmk -pdf -shell-escape -output-directory=$(dirname %) %<CR>:redraw!<CR>
  
 set expandtab
 set shiftwidth=2
@@ -138,3 +140,11 @@ command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|
 
 set backupdir=~/.vim/tmp,.
 set directory=~/.vim/tmp,.
+
+let g:clang_format#detect_style_file = 1
+let g:clang_format#auto_format_on_insert_leave = 1
+let g:clang_format#auto_format = 1
+
+set matchpairs+=<:>
+
+map <C-n> :!make<CR>

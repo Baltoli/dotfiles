@@ -18,6 +18,7 @@ cask "gitkraken"
 cask "gimp"
 cask "inkscape"
 cask "steam"
+cask "coconutbattery"
 
 brew "git"
 brew "nvim"

@@ -5,7 +5,7 @@ plugins=(brew git ruby osx)
 source $ZSH/oh-my-zsh.sh
 
 # export bin paths
-export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.bin:/usr/local/bin:$PATH
 
 PYTHON_USER_BIN=$(python3 -c 'import site; print(site.USER_BASE + "/bin")')
 export PATH=$PYTHON_USER_BIN:$PATH

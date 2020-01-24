@@ -7,6 +7,7 @@ FILES=(
   oh-my-zsh zshrc
   latexmkrc
   config/nvim
+  bin
 )
 
 for f in ${FILES[@]}

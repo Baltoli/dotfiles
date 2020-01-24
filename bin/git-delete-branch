@@ -1,0 +1,14 @@
+#!/bin/bash
+
+branch="$1"
+shift
+
+remote="$1"
+shift
+
+if [ -z "$remote" ]; then
+  remote="origin"
+fi
+
+git branch -d "$branch"
+git push origin ":$branch"

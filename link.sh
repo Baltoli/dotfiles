@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 FILES=(
-  vimrc vim 
-  tmux tmux.conf
+  vimrc
+  tmux.conf
   gitignore gitconfig.local
   oh-my-zsh zshrc
   latexmkrc

@@ -1,3 +1,4 @@
+brew "ant"
 brew "bash"
 brew "ccache"
 brew "clang-format"

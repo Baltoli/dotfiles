@@ -20,6 +20,7 @@ brew "openttd"
 brew "poppler"
 brew "pypy"
 brew "pypy3"
+brew "rbenv"
 brew "ruby"
 brew "the_silver_searcher"
 

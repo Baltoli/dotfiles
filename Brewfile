@@ -1,3 +1,5 @@
+tap "heroku/brew"
+
 brew "ant"
 brew "bash"
 brew "ccache"
@@ -10,6 +12,7 @@ brew "gcc"
 brew "ghc"
 brew "git"
 brew "graphviz"
+brew "heroku"
 brew "kstart"
 brew "ninja"
 brew "nvim"

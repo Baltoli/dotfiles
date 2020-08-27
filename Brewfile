@@ -1,6 +1,7 @@
 tap "heroku/brew"
 
 brew "ant"
+brew "aspell"
 brew "bash"
 brew "ccache"
 brew "clang-format"

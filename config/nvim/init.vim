@@ -15,6 +15,7 @@ if has('nvim')
   Plug 'tpope/vim-surround'
   Plug 'kana/vim-operator-user'
   Plug 'rhysd/vim-clang-format'
+  Plug 'leafgarland/typescript-vim'
 
   call plug#end()
 endif

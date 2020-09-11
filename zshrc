@@ -32,8 +32,6 @@ unsetopt AUTO_CD
 alias vim=nvim
 export EDITOR="nvim"
 
-eval "$(rbenv init -)"
-
 lazynvm() {
   unset -f nvm node npm
   export NVM_DIR="$HOME/.nvm"

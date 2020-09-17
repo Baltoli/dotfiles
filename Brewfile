@@ -31,6 +31,7 @@ brew "pypy"
 brew "pypy3"
 brew "rbenv"
 brew "ruby"
+brew "rustup-init"
 brew "the_silver_searcher"
 
 cask "backblaze"

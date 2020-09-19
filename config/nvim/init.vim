@@ -1,21 +1,22 @@
 if has('nvim')
   call plug#begin('$HOME/.local/share/nvim/plugged')
 
-  Plug 'kien/ctrlp.vim'
-  Plug 'qpkorr/vim-bufkill'
+  Plug 'airblade/vim-gitgutter'
   Plug 'ap/vim-buftabline'
+  Plug 'cespare/vim-toml'
+  Plug 'derekwyatt/vim-scala'
+  Plug 'godlygeek/tabular'
+  Plug 'kana/vim-operator-user'
+  Plug 'kien/ctrlp.vim'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'lervag/vimtex'
+  Plug 'morhetz/gruvbox'
+  Plug 'plasticboy/vim-markdown'
+  Plug 'qpkorr/vim-bufkill'
+  Plug 'rhysd/vim-clang-format'
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-fugitive'
-  Plug 'airblade/vim-gitgutter'
-  Plug 'morhetz/gruvbox'
-  Plug 'godlygeek/tabular'
-  Plug 'plasticboy/vim-markdown'
-  Plug 'derekwyatt/vim-scala'
-  Plug 'lervag/vimtex'
   Plug 'tpope/vim-surround'
-  Plug 'kana/vim-operator-user'
-  Plug 'rhysd/vim-clang-format'
-  Plug 'leafgarland/typescript-vim'
 
   call plug#end()
 endif

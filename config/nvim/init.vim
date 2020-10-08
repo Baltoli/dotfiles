@@ -10,6 +10,7 @@ if has('nvim')
   Plug 'kien/ctrlp.vim'
   Plug 'leafgarland/typescript-vim'
   Plug 'lervag/vimtex'
+  Plug 'maxmellon/vim-jsx-pretty'
   Plug 'morhetz/gruvbox'
   Plug 'plasticboy/vim-markdown'
   Plug 'qpkorr/vim-bufkill'

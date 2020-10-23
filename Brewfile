@@ -34,6 +34,7 @@ brew "ruby"
 brew "the_silver_searcher"
 
 cask "backblaze"
+cask "balenaetcher"
 cask "bettertouchtool"
 cask "caffeine"
 cask "coconutbattery"

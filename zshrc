@@ -31,26 +31,3 @@ unsetopt AUTO_CD
 
 alias vim=nvim
 export EDITOR="nvim"
-
-lazynvm() {
-  unset -f nvm node npm
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
-  [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
-  nvm use default
-}
-
-nvm() {
-  lazynvm
-  nvm $@
-}
-
-node() {
-  lazynvm
-  node $@
-}
-
-npm() {
-  lazynvm
-  npm $@
-}

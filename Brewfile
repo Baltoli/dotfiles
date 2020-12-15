@@ -32,6 +32,7 @@ brew "pypy3"
 brew "rbenv"
 brew "ruby"
 brew "the_silver_searcher"
+brew "tree"
 
 cask "backblaze"
 cask "balenaetcher"

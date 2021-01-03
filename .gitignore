@@ -1,3 +1,4 @@
 backup/
 .netrwhist
 Brewfile.lock.json
+.DS_Store

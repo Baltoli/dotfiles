@@ -14,6 +14,7 @@ if has('nvim')
   Plug 'plasticboy/vim-markdown'
   Plug 'qpkorr/vim-bufkill'
   Plug 'rhysd/vim-clang-format'
+  Plug 'rust-lang/rust.vim'
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-surround'
@@ -113,6 +114,8 @@ augroup filetype
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+let g:rustfmt_autosave = 1
 
 let g:clang_format#detect_style_file = 1
 let g:clang_format#auto_format = 1

@@ -3,11 +3,13 @@ brew upgrade
 brew bundle
 
 python3 -m pip install --user --upgrade pip
-python3 -m pip install --user Pygments
-python3 -m pip install --user candl-lexer
-python3 -m pip install --user lit
-python3 -m pip install --user tabulate
-python3 -m pip install --user virtualenv
-python3 -m pip install --user wllvm
+python3 -m pip install --user \
+  Pygments      \
+  candl-lexer   \
+  hole-c-lexer  \
+  lit           \
+  tabulate      \
+  virtualenv    \
+  wllvm
 
 gem install --user bundler

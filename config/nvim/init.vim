@@ -17,6 +17,7 @@ if has('nvim')
   Plug 'rust-lang/rust.vim'
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-rhubarb'
   Plug 'tpope/vim-surround'
 
   call plug#end()
@@ -26,7 +27,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 set background=dark
-" colorscheme gruvbox
+colorscheme gruvbox
 
 syntax enable
 filetype plugin indent on

@@ -22,6 +22,8 @@ if has('nvim')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
+  Plug 'baltoli/k-editor-support', { 'branch': 'vim-plug-support', 'rtp': 'vim' }
+
   call plug#end()
 endif
 

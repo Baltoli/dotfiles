@@ -54,3 +54,5 @@ npm() {
   lazynvm
   npm $@
 }
+
+eval "$(direnv hook zsh)"

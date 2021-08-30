@@ -1,5 +1,3 @@
-
-
 brew "ant"
 brew "aspell"
 brew "bash"
@@ -20,6 +18,7 @@ brew "entr"
 brew "fd"
 brew "flex"
 brew "gcc"
+brew "gdb"
 brew "ghc"
 brew "git"
 brew "git-lfs"
@@ -57,6 +56,7 @@ brew "tree"
 brew "unzip"
 brew "youtube-dl"
 brew "z3"
+
 cask "1password"
 cask "backblaze"
 cask "balenaetcher"

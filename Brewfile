@@ -1,5 +1,6 @@
 brew "ant"
 brew "aspell"
+brew "automake"
 brew "bash"
 brew "bib-tool"
 brew "bison"

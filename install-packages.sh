@@ -9,6 +9,7 @@ python3 -m pip install --user \
   graphviz      \
   hole-c-lexer  \
   lit           \
+  pymupdf       \
   tabulate      \
   virtualenv    \
   wllvm

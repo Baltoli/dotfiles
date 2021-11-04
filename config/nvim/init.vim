@@ -21,6 +21,7 @@ if has('nvim')
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'LnL7/vim-nix'
 
   Plug 'baltoli/k-editor-support', { 'branch': 'markdown-fences', 'rtp': 'vim' }
 
@@ -139,3 +140,8 @@ let g:clang_format#detect_style_file = 1
 let g:clang_format#auto_format = 1
 
 let g:airline#extensions#tabline#enabled = 1
+
+let g:vim_markdown_auto_insert_bullets = 0
+let g:vim_markdown_new_list_item_indent = 0
+
+autocmd FileType java ClangFormatAutoDisable

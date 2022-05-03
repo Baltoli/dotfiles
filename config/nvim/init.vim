@@ -22,6 +22,7 @@ if has('nvim')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'LnL7/vim-nix'
+  Plug 'martinda/Jenkinsfile-vim-syntax'
 
   Plug 'baltoli/k-editor-support', { 'branch': 'markdown-fences', 'rtp': 'vim' }
 

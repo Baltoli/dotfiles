@@ -1,7 +1,41 @@
 [user]
         name = baltoli
         email = brucecollie82@gmail.com
+
 [credential]
         helper = osxkeychain
+
 [alias]
-        change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "
+        st = status --short
+
+        d  = diff
+        dc = diff --cached
+
+        s  = show
+        sm = show -m
+
+        b  = branch
+        ba = branch --all
+
+        co = checkout
+
+        c  = commit
+        ca = commit --all
+        cs = commit --amend
+
+        co = checkout
+
+        r   = rebase --interactive
+        rc  = rebase --continue
+        ra  = rebase --abort
+        rs  = rebase --skip
+        ret = rebase --edit-todo
+
+        cp  = cherry-pick
+        cpc = cherry-pick --continue
+        cpa = cherry-pick --abort
+
+        f  = fetch
+        fa = fetch --all
+
+        smu = submodule update --init --recursive

@@ -1,7 +1,7 @@
 # oh-my-zsh specifics
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
-plugins=(brew git ruby osx)
+plugins=(brew git ruby macos)
 source $ZSH/oh-my-zsh.sh
 
 # export bin paths

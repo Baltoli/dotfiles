@@ -24,6 +24,9 @@ if has('nvim')
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'LnL7/vim-nix'
+  Plug 'martinda/Jenkinsfile-vim-syntax'
+  Plug 'tell-k/vim-autopep8'
 
   Plug 'baltoli/k-editor-support', { 'branch': 'markdown-fences', 'rtp': 'vim' }
 
@@ -145,6 +148,12 @@ let g:airline#extensions#tabline#enabled = 1
 
 let g:vim_markdown_auto_insert_bullets = 0
 let g:vim_markdown_new_list_item_indent = 0
+
+let g:autopep8_disable_show_diff=1
+augroup pep8
+    autocmd FileType python
+        \ autocmd! BufWritePost <buffer> Autopep8
+augroup END
 
 set inccommand=nosplit
 

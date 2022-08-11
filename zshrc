@@ -65,3 +65,4 @@ PERL_MM_OPT="INSTALL_BASE=/Users/brucecollie/perl5"; export PERL_MM_OPT;
 if [ -e /home/bruce/.nix-profile/etc/profile.d/nix.sh ]; then . /home/bruce/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 PROMPT="%{$fg[yellow]%}%m ${PROMPT}"
+export HOMEBREW_GITHUB_API_TOKEN=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

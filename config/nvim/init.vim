@@ -1,15 +1,18 @@
 if has('nvim')
   call plug#begin('$HOME/.local/share/nvim/plugged')
 
-  Plug 'airblade/vim-gitgutter'
   " Plug 'ap/vim-buftabline'
+  Plug 'LnL7/vim-nix'
+  Plug 'airblade/vim-gitgutter'
   Plug 'cespare/vim-toml'
   Plug 'derekwyatt/vim-scala'
   Plug 'godlygeek/tabular'
+  Plug 'junegunn/goyo.vim'
   Plug 'kana/vim-operator-user'
   Plug 'kien/ctrlp.vim'
   Plug 'leafgarland/typescript-vim'
   Plug 'lervag/vimtex'
+  Plug 'martinda/Jenkinsfile-vim-syntax'
   Plug 'morhetz/gruvbox'
   Plug 'plasticboy/vim-markdown'
   Plug 'qpkorr/vim-bufkill'
@@ -21,8 +24,6 @@ if has('nvim')
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'LnL7/vim-nix'
-  Plug 'martinda/Jenkinsfile-vim-syntax'
 
   Plug 'baltoli/k-editor-support', { 'branch': 'markdown-fences', 'rtp': 'vim' }
 

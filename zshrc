@@ -65,3 +65,19 @@ PERL_MM_OPT="INSTALL_BASE=/Users/brucecollie/perl5"; export PERL_MM_OPT;
 if [ -e /home/bruce/.nix-profile/etc/profile.d/nix.sh ]; then . /home/bruce/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 PROMPT="%{$fg[yellow]%}%m ${PROMPT}"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/bruce/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/bruce/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/bruce/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/bruce/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

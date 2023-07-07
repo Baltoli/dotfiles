@@ -150,10 +150,10 @@ let g:vim_markdown_auto_insert_bullets = 0
 let g:vim_markdown_new_list_item_indent = 0
 
 let g:autopep8_disable_show_diff=1
-augroup pep8
-    autocmd FileType python
-        \ autocmd! BufWritePost <buffer> Autopep8
-augroup END
+" augroup pep8
+"     autocmd FileType python
+"         \ autocmd! BufWritePost <buffer> Autopep8
+" augroup END
 
 set inccommand=nosplit
 

@@ -65,6 +65,7 @@ brew "youtube-dl"
 brew "z3"
 
 cask "1password"
+cask "aerial"
 cask "backblaze"
 cask "balenaetcher"
 cask "bettertouchtool"

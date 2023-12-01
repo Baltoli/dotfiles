@@ -66,3 +66,5 @@ PERL_MM_OPT="INSTALL_BASE=/Users/brucecollie/perl5"; export PERL_MM_OPT;
 PROMPT="%{$fg[yellow]%}%m ${PROMPT}"
 
 [ -f "/Users/brucecollie/.ghcup/env" ] && source "/Users/brucecollie/.ghcup/env" # ghcup-env
+
+export PATH="$HOME/.local/bin:$PATH"

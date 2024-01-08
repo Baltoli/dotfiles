@@ -13,5 +13,3 @@ python3 -m pip install --user \
   tabulate      \
   virtualenv    \
   wllvm
-
-gem install --user bundler

@@ -68,3 +68,6 @@ PROMPT="%{$fg[yellow]%}%m ${PROMPT}"
 [ -f "/Users/brucecollie/.ghcup/env" ] && source "/Users/brucecollie/.ghcup/env" # ghcup-env
 
 export PATH="$HOME/.local/bin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

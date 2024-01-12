@@ -1,7 +1,6 @@
 if has('nvim')
   call plug#begin('$HOME/.local/share/nvim/plugged')
 
-  " Plug 'ap/vim-buftabline'
   Plug 'LnL7/vim-nix'
   Plug 'airblade/vim-gitgutter'
   Plug 'cespare/vim-toml'
@@ -18,17 +17,15 @@ if has('nvim')
   Plug 'qpkorr/vim-bufkill'
   Plug 'rhysd/vim-clang-format'
   Plug 'rust-lang/rust.vim'
+  Plug 'tell-k/vim-autopep8'
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'LnL7/vim-nix'
-  Plug 'martinda/Jenkinsfile-vim-syntax'
-  Plug 'tell-k/vim-autopep8'
 
-  Plug 'baltoli/k-editor-support', { 'branch': 'markdown-fences', 'rtp': 'vim' }
+  Plug 'runtimeverification/k-editor-support', { 'rtp': 'vim' }
 
   call plug#end()
 endif

@@ -1,3 +1,5 @@
+au BufRead,BufNewFile *.k setfiletype k
+
 if has('nvim')
   call plug#begin('$HOME/.local/share/nvim/plugged')
 
@@ -130,8 +132,8 @@ let g:vimtex_compiler_latexmk = {
 let g:vimtex_quickfix_open_on_warning = 0
 
 augroup filetype
-    au! BufRead,BufNewFile *.ll     set filetype=llvm
-  augroup END
+  au! BufRead,BufNewFile *.ll     set filetype=llvm
+augroup END
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -155,3 +157,5 @@ let g:autopep8_disable_show_diff=1
 set inccommand=nosplit
 
 autocmd FileType java ClangFormatAutoDisable
+
+autocmd FileType k setlocal commentstring=//\ %s
